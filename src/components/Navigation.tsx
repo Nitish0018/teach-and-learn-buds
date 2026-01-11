@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Home, Search, Calendar, User, Menu, X } from "lucide-react";
+import { Home, Search, Calendar, User, Menu, X, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -8,6 +8,7 @@ const navItems = [
   { icon: Home, label: "Home", path: "/" },
   { icon: Search, label: "Discover", path: "/discover" },
   { icon: Calendar, label: "Sessions", path: "/sessions" },
+  { icon: Users, label: "Meetups", path: "/meetups" },
   { icon: User, label: "Profile", path: "/profile" },
 ];
 
